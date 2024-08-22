@@ -32,7 +32,7 @@ const FacebookAdCard = () => {
           </div>
         </div>
         <div className="ml-10">
-          <img src={img} alt="QR1 Logo" className="h-96 w-96" />
+          <img src={img} alt="QR1 Logo" className="h-94 w-96" />
         </div>
       </div>
     </div>
