@@ -1,10 +1,10 @@
 import img from "/chat.png";
-import qrImage from "/ConverselyBot.png";
+// import qrImage from "/ConverselyBot.png";
 
 const Whatsapp = () => {
-  // const handleButtonClick = () => {
-  //     window.open("https://wa.me/918076468761?text=Heyy", "_blank");
-  //   };
+  const handleButtonClick = () => {
+      window.open("https://wa.me/918076468761?text=Heyy", "_blank");
+    };
   return (
     <div className="flex flex-row bg-blue-50 rounded-md shadow-lg mt-4 common">
       <div className="flex justify-between p-10">
@@ -13,11 +13,11 @@ const Whatsapp = () => {
         </div>
         <div className="mt-14 p-6 w-2/3">
           <div className="text-left">
-            <div className="mb-2">
-              {/* <button className="border border-blue-500 text-blue-500 rounded-full px-4 py-1 text-xl font-semibold hover:bg-blue-200 hover:text-white" onClick={handleButtonClick}>
-                QR Scan
-              </button> */}
-              <img src={qrImage} alt="QRCode" className="h-24" />
+            <div className="mb-3">
+              <button className="border border-blue-500 text-blue-500 rounded-full px-4 py-1 text-xl font-semibold hover:bg-blue-200 hover:text-white" onClick={handleButtonClick}>
+                Tap & Shop
+              </button>
+              {/* <img src={qrImage} alt="QRCode" className="h-24" /> */}
             </div>
 
             {/* Main Heading */}
