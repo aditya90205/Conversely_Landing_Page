@@ -1,3 +1,4 @@
+import { FaFacebook } from "react-icons/fa";
 import img from "/fb.png";
 
 const FacebookAdCard = () => {
@@ -9,10 +10,18 @@ const FacebookAdCard = () => {
       <div className="flex justify-between rounded-md p-10">
         <div className="mt-14 p-6 w-2/3">
           <div className="text-left">
-            <div className="mb-4">
-              <button className="border border-blue-500 text-blue-500 rounded-full px-4 py-1 text-xl font-semibold hover:bg-blue-200 hover:text-white" onClick={handleButtonClick}>
-                FB magic
-              </button>
+          <div
+              className="mb-4 flex items-center
+            "
+            >
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="text-blue-600 text-4xl hover:text-blue-800" />
+              </a>
+              <p className="text-lg ml-2">Chat, Swipe, Shop - Insta to WhatsApp!</p>
             </div>
 
             {/* Main Heading */}
@@ -31,8 +40,11 @@ const FacebookAdCard = () => {
             </p>
           </div>
         </div>
-        <div className="ml-10">
+        <div className="ml-10 grid relative">
           <img src={img} alt="QR1 Logo" className="h-94 w-96" />
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded absolute top-[19.7rem] right-[13.2rem] whitespace-nowrap" onClick={handleButtonClick}>
+            Shop Now
+          </button>
         </div>
       </div>
     </div>
