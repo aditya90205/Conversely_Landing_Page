@@ -1,40 +1,12 @@
-import img from "/conversely.png"
+import img from "/conversely.png";
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-b from-[#7fbbf4] to-white rounded-xl relative p-20 common mt-0.5">
-      {/* Navbar */}
-      <nav className="bg-white shadow-lg py-4 ml-[12rem] rounded-2xl px-16 absolute" >
-        <div className="container mx-auto flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold text-blue-600">
-            <img src={img} alt="Logo" className="h-16 inline-block mr-16" />
-          </a>
-          <ul className="flex space-x-20 text-lg font-medium text-gray-600">
-            <li>
-              <a href="#" className="hover:text-black">
-                Benefits
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-black">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-black">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-black">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+    <div className="bg-gradient-to-b from-[#b0d6f9] to-white rounded-xl relative pb-16 common mt-0.5 ">
       {/* Landing Page Content */}
-      <header className="text-center mt-36">
+      <div className=" ml-[26rem] mb-7">
+        <img src={img} alt="Logo" className="h-22" />
+      </div>
+      <header className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
           Instantly Engage with Our <br /> AI-Powered WhatsApp Bot
         </h1>
