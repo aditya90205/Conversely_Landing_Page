@@ -3,14 +3,20 @@ import img from "/chat.png";
 // import qrImage from "/ConverselyBot.png";
 
 const Whatsapp = () => {
-  // const handleButtonClick = () => {
-  //     window.open("https://wa.me/918076468761?text=Heyy", "_blank");
-  //   };
+  const handleButtonClick = () => {
+      window.open("https://wa.me/918076468761?text=Heyy", "_blank");
+    };
   return (
     <div className="flex flex-row bg-blue-50 rounded-md shadow-lg mt-4 common">
       <div className="flex justify-between p-10">
-        <div>
+        <div className="grid relative">
           <img src={img} alt="QR1 Logo" className="h-96" />
+          <button
+              className="text-blue-500 bg-white font-bold absolute top-[20.3rem] left-16 whitespace-nowrap text-sm"
+              onClick={handleButtonClick}
+            >
+              https://wa.me/918076468761?text=Heyy
+            </button>
         </div>
         <div className="mt-14 p-6 w-2/3">
           <div className="text-left">

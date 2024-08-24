@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className="bg-gradient-to-b from-[#b0d6f9] to-white rounded-xl relative pb-16 common mt-0.5 ">
       {/* Landing Page Content */}
-      <div className=" ml-[26rem] mb-7">
+      <div className=" ml-[29.6rem] mb-7">
         <img src={img} alt="Logo" className="h-22" />
       </div>
       <header className="text-center">
