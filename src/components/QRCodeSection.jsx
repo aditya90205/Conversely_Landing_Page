@@ -3,7 +3,7 @@ import qrImage from "/ConverselyBot.png";
 import { FaWhatsapp } from "react-icons/fa";
 const QRCodeSection = () => {
   return (
-    <div className="flex flex-row bg-blue-50 rounded-md shadow-lg common">
+    <div className="flex flex-row bg-blue-50 rounded-md common">
       <div className="flex justify-between p-10">
         <div className="ml-10 grid relative">
           <img src={img} alt="QR1 Logo" className="h-96" />

@@ -12,7 +12,7 @@ const WhatsAppBot = () => {
           </section>
         </div>
           
-          <div className="flex justify-center bg-white p-9 common shadow-xl">
+          <div className="flex justify-center bg-white p-9 common ">
             <img src={img1} alt="Phone1" className=" rounded-lg shadow-md h-[30rem] mr-4"/>
             <img src={img2} alt="Phone2" className=" rounded-lg shadow-md h-[30rem] ml-4" />
           </div>

@@ -6,7 +6,7 @@ const QRCodeSection2 = () => {
     window.open("https://wa.me/918076468761?text=Heyy", "_blank");
   };
   return (
-    <div className="flex flex-row bg-blue-50 mt-4 rounded-md shadow-lg common">
+    <div className="flex flex-row bg-blue-50 mt-4 rounded-md common">
       <div className="flex justify-between rounded-md p-10">
         <div className="mt-14 p-6 w-2/3">
           <div className="text-left">
