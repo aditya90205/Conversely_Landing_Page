@@ -8,7 +8,7 @@ const WhatsApp2 = () => {
     window.open("https://wa.me/918076468761?text=Heyy", "_blank");
   };
   return (
-    <div className="flex flex-row bg-blue-50 rounded-md mt-4 common">
+    <div className="flex flex-row bg-blue-50 rounded-md mt-5 common">
       <div className="flex justify-between p-10">
         <div className="ml-10 flex">
           <video src={video2} autoPlay loop muted className="h-96 rounded-xl" />
