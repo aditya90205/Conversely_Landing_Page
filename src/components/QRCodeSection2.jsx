@@ -43,9 +43,9 @@ const QRCodeSection2 = () => {
             autoPlay
             loop
             muted
-            className="h-96 rounded-md bg-blue-100"
+            className=" w-[850.28px]"
           />
-          <button className="bg-stone-500 hover:bg-stone-700 text-white font-bold py-2 px-7 rounded absolute top-[16.5rem] right-[11.5rem]" onClick={handleButtonClick}>
+          <button className="bg-stone-500 hover:bg-stone-700 text-white font-bold py-2 px-8 rounded absolute top-[15.1rem] right-[13.6rem]" onClick={handleButtonClick}>
             Shop Now
           </button>
         </div>

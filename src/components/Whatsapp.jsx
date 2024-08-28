@@ -1,5 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
-import img from "/chatt.png";
+import img from "/chat1.png";
 // import qrImage from "/ConverselyBot.png";
 
 const Whatsapp = () => {
@@ -10,9 +10,9 @@ const Whatsapp = () => {
     <div className="flex flex-row bg-blue-50 rounded-md mt-5 common">
       <div className="flex justify-between p-10">
         <div className="grid relative">
-          <img src={img} alt="QR1 Logo" className="h-96" />
+          <img src={img} alt="QR1 Logo" className=" w-[849.92px]" />
           <button
-              className="text-blue-500 bg-white font-bold absolute top-[21.2rem] left-16 whitespace-nowrap text-sm"
+              className="text-blue-500 bg-white font-bold absolute top-[24.7rem] left-24 whitespace-nowrap text-sm"
               onClick={handleButtonClick}
             >
               https://wa.me/918076468761?text=Heyy
