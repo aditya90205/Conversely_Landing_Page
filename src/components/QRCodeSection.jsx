@@ -6,14 +6,14 @@ const QRCodeSection = () => {
     <div className="flex flex-row bg-blue-50 rounded-md common">
       <div className="flex justify-between p-10">
         <div className="ml-10 grid relative">
-          <img src={img} alt="QR1 Logo" className="h-96" />
+          <img src={img} alt="QR1 Logo" className=" w-[508.63px] rounded-md" />
           <img
             src={qrImage}
             alt="QRCode"
-            className="h-20 absolute top-44 right-28 rounded-lg"
+            className="h-20 absolute top-[15.1rem] right-[10.1rem] rounded-lg"
           />
         </div>
-        <div className="mt-10 p-6 w-2/3">
+        <div className="mt-36 p-6 w-[589px]">
           <div className="text-left">
             <div className="mb-4 flex items-center
             ">
