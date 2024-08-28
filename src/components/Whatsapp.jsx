@@ -25,7 +25,7 @@ const Whatsapp = () => {
             "
             >
               <a
-                href="https://facebook.com"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

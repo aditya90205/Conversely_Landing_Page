@@ -30,7 +30,7 @@ const WhatsApp2 = () => {
             "
             >
               <a
-                href="https://facebook.com"
+                href="https://whatsapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

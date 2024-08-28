@@ -18,7 +18,7 @@ const QRCodeSection = () => {
             <div className="mb-4 flex items-center
             ">
               <a
-                href="https://facebook.com"
+                href="https://whatsapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
