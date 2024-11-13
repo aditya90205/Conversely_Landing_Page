@@ -3,7 +3,7 @@ import video1 from "/conver.mp4";
 
 const QRCodeSection2 = () => {
   const handleButtonClick = () => {
-    window.open("https://wa.me/918076468761?text=Heyy", "_blank");
+    window.open("https://wa.me/918076468761?text=Fashion", "_blank");
   };
   return (
     <div className="flex flex-row bg-blue-50 mt-5 rounded-md common">

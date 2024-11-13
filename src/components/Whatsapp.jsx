@@ -4,7 +4,7 @@ import img from "/chat1.png";
 
 const Whatsapp = () => {
   const handleButtonClick = () => {
-      window.open("https://wa.me/918076468761?text=Heyy", "_blank");
+      window.open("https://wa.me/918076468761?text=Fashion", "_blank");
     };
   return (
     <div className="flex flex-row bg-blue-50 rounded-md mt-5 common">
@@ -15,7 +15,7 @@ const Whatsapp = () => {
               className="text-blue-500 bg-white font-bold absolute top-[24.7rem] left-24 whitespace-nowrap text-sm"
               onClick={handleButtonClick}
             >
-              https://wa.me/918076468761?text=Heyy
+              https://wa.me/918076468761?text=Fashion
             </button>
         </div>
         <div className="mt-14 p-6 w-2/3">
